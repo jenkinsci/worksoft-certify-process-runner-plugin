@@ -10,7 +10,7 @@
     <relativePath/>
   </parent>
   <groupId>org.jenkins-ci.plugins</groupId>
-  <artifactId>WorksoftCertifyProcessRunner</artifactId>
+  <artifactId>worksoftcertifyprocessrunner</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
@@ -42,8 +42,8 @@
   </licenses>
 
  <scm>
-    <connection>scm:git:ssh://github.com/jenkinsci/certifyci-plugin.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:jenkinsci/certifyci-plugin.git</developerConnection>
+    <connection>scm:git:ssh://github.com/jenkinsci/worksoft-certify-process-runner-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:jenkinsci/worksofy-certify-process-runner-plugin.git</developerConnection>
     <url>http://github.com/jenkinsci/worksoft-certify-process-runner-plugin</url>
   </scm>
 
