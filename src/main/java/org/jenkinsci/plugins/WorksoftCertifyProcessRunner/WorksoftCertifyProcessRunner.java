@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.WorksoftCertifyProcessRunner;
+package org.jenkinsci.plugins.worksoftcertifyprocessrunner;
 
 import hudson.Launcher;
 import hudson.Extension;
