@@ -50,10 +50,27 @@
   <developers>
     <developer>
       <id>susmitha</id>
-      <name>susmitha,aravind,jeevan,devesh</name>
-      <email>lakshmi.p@qualesce.com,aravind.r@qualesce.com,jeevana.k@qualesce.com,devesh14may@gmail.com</email>
+      <name>susmitha</name>
+      <email>lakshmi.p@qualesce.com</email>
       </developer>
+     <developer>
+         <id>aravind</id>
+         <name>aravind</name>
+         <email>aravind.r@qualesce.com</email>
+     </developer>
+     <developer>
+         <id>jeevan</id>
+         <name>jeevan</name>
+         <email>jeevan.k@qualesce.com</email>
+     </developer>
+     <developer>
+         <id>devesh</id>
+         <name>devesh</name>
+         <email>devesh14may@gmail.com</email>
+     </developer>
   </developers>
+ 
+    
 
    <repositories>
     <repository>
