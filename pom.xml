@@ -28,6 +28,13 @@
     -->
   </properties>
 
+<distributionManagement>
+		<repository>
+			<id>maven.jenkins-ci.org</id>
+			<url>http://maven.jenkins-ci.org:8081/content/repositories/releases/</url>
+		</repository>
+	</distributionManagement>
+	
   <name>Worksoft Certify Process Runner Plugin</name>
   <description>Worksoft Certify Process Runner plugins allows you to execute the certify test scripts from jenkins</description>
   <url>https://wiki.jenkins-ci.org/display/JENKINS/Worksoft+Certify+Process+Runner</url>
