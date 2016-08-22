@@ -28,6 +28,7 @@ public class WorksoftCertifyProcessRunner extends Builder {
     private final String recordset;
     private final String layout;
     private final String mode;
+    private final tring target;
     private final boolean useLayout;
     
     public String getName() {
@@ -53,6 +54,10 @@ public class WorksoftCertifyProcessRunner extends Builder {
     public String getLayout() {
         return layout;
     }
+    
+    public string getTarget() {
+        return target;
+    }
 
     public String getMode() {
         return mode;
@@ -61,7 +66,7 @@ public class WorksoftCertifyProcessRunner extends Builder {
 
     // Fields in config.jelly must match the parameter names in the "DataBoundConstructor"
     @DataBoundConstructor
-    public WorksoftCertifyProcessRunner(String name, String password, String project, String process, String recordset, String layout, String mode, boolean useLayout) {
+    public WorksoftCertifyProcessRunner(String name, String password, String project, String process, String recordset, String layout, String mode, String target, boolean useLayout) {
         this.name = name;
         this.password = password;
         this.project = project;
@@ -69,6 +74,7 @@ public class WorksoftCertifyProcessRunner extends Builder {
         this.layout = layout;
         this.recordset = recordset;
         this.mode = mode;
+        this.target=target;
         this.useLayout = useLayout;
     }
 
@@ -83,11 +89,11 @@ public class WorksoftCertifyProcessRunner extends Builder {
         String command;
         System.out.println(useLayout);
         if (!useLayout) {
-            command = "Certify.exe  /usecertifyconfig+ /useprocessdata+ /stepdelay=0  /Process=\"" + process + "\"   /Project=\"" + project + "\"   /VerifyObjects=Disabled  /user=\"" + name + "\" /password=\"" + password + "\"";
+            command = "Certify.exe  /usecertifyconfig+ /useprocessdata+ /stepdelay=0  /Process=\"" + process + "\"   /Project=\"" + project + "\"   /VerifyObjects=Disabled  /outputlocation=\"" + target + "\"  /createoutputlocation+  /user=\"" + name + "\" /password=\"" + password + "\"";
 
         } else {
 
-            command = "Certify.exe  /usecertifyconfig+ /stepdelay=0  /Process=\"" + process + "\"   /Project=\"" + project + "\"  /Recordset=\"" + recordset + "\" /RecordsetsMode=\"" + mode + "\" /Layout=\"" + layout + "\"   /VerifyObjects=Disabled  /user=\"" + name + "\" /password=\"" + password + "\"";
+            command = "Certify.exe  /usecertifyconfig+ /stepdelay=0  /Process=\"" + process + "\"   /Project=\"" + project + "\"  /Recordset=\"" + recordset + "\" /RecordsetsMode=\"" + mode + "\" /Layout=\"" + layout + "\"   /VerifyObjects=Disabled  /outputlocation=\"" + target + "\"  /createoutputlocation+ /user=\"" + name + "\" /password=\"" + password + "\"";
         }
         System.out.println(command);
         try {
