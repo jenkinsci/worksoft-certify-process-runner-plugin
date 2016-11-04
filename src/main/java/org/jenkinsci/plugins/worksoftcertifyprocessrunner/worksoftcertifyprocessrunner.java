@@ -95,10 +95,6 @@ public class worksoftcertifyprocessrunner extends Builder {
     }
 
     /**
-     * @param command
-     *     Certify command to execute the process
-     *     @param useLayout
-     * 
      * @return True if process is executed else error will be displayed
      */
         @Override
