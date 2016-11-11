@@ -103,6 +103,10 @@ public class worksoftcertifyprocessrunner extends Builder {
         // This also shows how you can consult the global configuration of the builder
         String command;
         System.out.println(useLayout);
+        /**
+        * If user did not give layout and recordset if will execute otherwise else will execute.
+        */
+	    
         if (!useLayout) {
             command = "Certify.exe  /usecertifyconfig+ /useprocessdata+ /stepdelay=0  /Process=\"" + process + "\"   /Project=\"" + project + "\"  /VerifyObjects=Disabled  /outputlocation=\"" + target + "\" /createoutputlocation+ /user=\"" + name + "\" /password=\"" + password + "\"";
            
