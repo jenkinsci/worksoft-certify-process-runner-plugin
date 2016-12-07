@@ -92,5 +92,9 @@
     </dependency>
   </dependencies>
   -->
-
+ <configuration>
+        <checkModificationExcludes>
+            <checkModificationExclude>config.jelly</checkModificationExclude>
+        </checkModificationExcludes>
+    </configuration>
 </project>
