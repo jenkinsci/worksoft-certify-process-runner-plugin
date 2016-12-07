@@ -22,6 +22,9 @@
   <f:entry title="Process" field="process">
   <f:textbox />
   </f:entry>
+  <f:entry title="Results" field="target">
+  <f:textbox />
+  </f:entry>
   <f:optionalBlock name="useLayout" field="useLayout" title="Advanced" inline="true" checked="${instance.useLayout}">
   <f:entry title="Layout" field="layout">
   <f:textbox />
