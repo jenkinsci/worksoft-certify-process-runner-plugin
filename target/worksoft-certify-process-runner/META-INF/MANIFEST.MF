@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Built-By: Susmitha007
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_91
+Extension-Name: worksoft-certify-process-runner
+Specification-Title: worksoft certify process runner plugin is used to
+  execyte scripts from jenkins.
+Implementation-Title: worksoft-certify-process-runner
+Implementation-Version: 1.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: worksoft-certify-process-runner
+Long-Name: worksoftcertifyprocessrunner
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Worksoft+Certify+Proc
+ ess+Runner
+Plugin-Version: 1.1
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: susmitha:susmitha:lakshmi.p@qualesce.com,aravind:ar
+ avind:aravind.r@qualesce.com,jeevan:jeevan:jeevan.k@qualesce.com,deve
+ sh:devesh:devesh14may@gmail.com
+Support-Dynamic-Loading: true
+
