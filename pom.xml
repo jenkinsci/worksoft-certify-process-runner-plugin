@@ -68,7 +68,7 @@
     <connection>scm:git:ssh://github.com/jenkinsci/Worksoft-Certify-Process-Runner-plugin.git</connection>
     <developerConnection>scm:git:ssh://git@github.com:jenkinsci/Worksoft-Certify-Process-Runner-plugin.git</developerConnection>
     <url>https://github.com/lakshmisusmitha/worksoft-certify-process-runner</url>
-    <tag>WorksoftCerifyProcessRunner</tag>
+    <tag>WorksoftCertifyProcessRunner</tag>
   </scm>
   
   <repositories>
