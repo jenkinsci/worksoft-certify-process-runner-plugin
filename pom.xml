@@ -10,8 +10,8 @@
     <relativePath/>
   </parent>
   <groupId>org.jenkins-ci.plugins</groupId>
-  <artifactId>worksoft-certify-process-runner</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <artifactId>worksoftcertifyprocesssuite</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <properties>
@@ -26,11 +26,10 @@
          ~ hpi-plugin.version: The HPI Maven Plugin version used by the plugin..
          ~ stapler-plugin.version: The Stapler Maven plugin version required by the plugin.
     -->
-  </properties>
 
-   <name>worksoftcertifyprocessrunner</name>
-  <description>worksoft certify process runner plugin is used to execyte scripts from jenkins.</description>
-  <url>https://wiki.jenkins-ci.org/display/JENKINS/Worksoft+Certify+Process+Runner</url> 
+  </properties><name>worksoftcertifyprocesssuite</name>
+  <description>This plugin is used to execute the certify processes in folder level. </description>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Worksoft+Certify+Process+Suite</url>
 
   <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
 
@@ -41,7 +40,14 @@
     </license>
   </licenses>
 
-  <developers>
+    <scm>
+    <connection>scm:git:ssh://github.com/jenkinsci/worksoft-certify-process-suite-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:jenkinsci/worksoft-certify-process-suite-plugin.git</developerConnection>
+    <url>https://github.com/lakshmisusmitha/worksoft-certify-process-suite-plugin</url>
+    <tag>worksoftcertifyprocesssuite</tag>
+  </scm>
+
+<developers>
     <developer>
       <id>susmitha</id>
       <name>susmitha</name>
@@ -63,14 +69,7 @@
          <email>devesh14may@gmail.com</email>
      </developer>
   </developers>
-  
-   <scm>
-    <connection>scm:git:ssh://github.com/jenkinsci/Worksoft-Certify-Process-Runner-plugin.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:jenkinsci/Worksoft-Certify-Process-Runner-plugin.git</developerConnection>
-    <url>https://github.com/jenkinsci/worksoft-certify-process-runner-plugin</url>
-    <tag>WorksoftCertifyProcessRunner</tag>
-  </scm>
-  
+   
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
@@ -92,5 +91,5 @@
     </dependency>
   </dependencies>
   -->
- 
+
 </project>
